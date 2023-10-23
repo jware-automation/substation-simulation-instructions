@@ -37,7 +37,7 @@
 ## Configure OSHMI (on Windows Side)
 
 1. Download `oshmi_setup_v.6.30.exe` at `https://sourceforge.net/projects/oshmiopensubstationhmi/files/` and install OSHMI.
-2. Replace the existing files in the fiven directories by the files given in the folder **OSHMI-Files for Replacing** provided.
+2. Replace the existing files in the following directories by the files given in the folder **OSHMI-Files for Replacing** provided.
    
     | File | Location    |
     |-----|---------|
@@ -46,8 +46,7 @@
     | orr1.svg   | `C:\oshmi\svg` |
     | screen_list.js | `C:\oshmi\svg` |
 
-4. Place the OSHMI-Shortcuts folder in your desktop
-5. Go the the OSHMI-Shortcuts folder on your desktop
-6. Start **WebServer**
-7. Start **Screen Viewer**
-8. Finally, Start **IEC61850Client**
+3. Go the the OSHMI folder on your desktop
+4. Start **WebServer**
+5. Start **Screen Viewer**
+6. Finally, Start **IEC61850Client**
