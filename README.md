@@ -20,12 +20,12 @@
 3. Run `sudo ./examples/substation_simulation_control_app/substation_simulation_control_app` to start the constrol app
     - You may use an argumant to run the control app in a specific mode and exit automatically
       - Eg: `sudo ./examples/substation_simulation_control_app/substation_simulation_control_app 1` to launch normal mode
-      
-| arg | mode    |
-|-----|---------|
-| 1   | nominal |
-| 2   | Transfomer overheat |
-| 3   | Abnormal Input Voltage |
+
+    | arg | mode    |
+    |-----|---------|
+    | 1   | nominal |
+    | 2   | Transfomer overheat |
+    | 3   | Abnormal Input Voltage |
 
 4.  Run the following command to get the list of IP addresses of IEDs
     ```
