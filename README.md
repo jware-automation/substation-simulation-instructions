@@ -8,12 +8,12 @@
   sudo ./make_sim_env.sh
   ```
 
-## Start The Simulation
+## Start the Simulation
 1. Run the following commmand to start the IEDs
   ```
   sudo ./start_simulation.sh
   ```
-2. Run the following command to build the control app
+2. Run the following command to build the control app (This is required only once unless the control app code is modified.)
   ```
   sudo ./build_control_app.sh
   ```
