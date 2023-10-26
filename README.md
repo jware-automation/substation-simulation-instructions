@@ -42,10 +42,10 @@
     | File | Location    |
     |-----|---------|
     | point_list.txt   | `C:\oshmi\conf` |
+    | iec61850_client.conf | `C:\oshmi\conf` |
     | IEC61850Client   | `C:\Users\<PC-Username>\Desktop\OSHMI` |
     | orr1.svg   | `C:\oshmi\svg` |
     | screen_list.js | `C:\oshmi\svg` |
-    | iec61850_client.conf | `C:\oshmi\conf` |
 
 4. Go the the OSHMI folder on your desktop
 5. Start **WebServer**
