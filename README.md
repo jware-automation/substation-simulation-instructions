@@ -45,8 +45,9 @@
     | IEC61850Client   | `C:\Users\<PC-Username>\Desktop\OSHMI` |
     | orr1.svg   | `C:\oshmi\svg` |
     | screen_list.js | `C:\oshmi\svg` |
+    | iec61850_client.conf | `C:\oshmi\conf` |
 
-3. Go the the OSHMI folder on your desktop
-4. Start **WebServer**
-5. Start **Screen Viewer**
-6. Finally, Start **IEC61850Client**
+4. Go the the OSHMI folder on your desktop
+5. Start **WebServer**
+6. Start **Screen Viewer**
+7. Finally, Start **IEC61850Client**
