@@ -47,6 +47,10 @@
     | orr1.svg   | `C:\oshmi\svg` |
     | screen_list.js | `C:\oshmi\svg` |
 
+    Set IED container IP addresses/hostnames (RED) and Ports (YELLOW) in `iec61850_client.conf` as shown below:
+    ![iec61850_client_config](https://github.com/jware-automation/substation-simulation-instructions/assets/83968050/72bb8b4f-272c-4b54-93ac-0d94f17a2bd2)
+
+
 4. Go the the OSHMI folder on your desktop
 5. Start **WebServer**
 6. Start **Screen Viewer**
