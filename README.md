@@ -29,7 +29,7 @@
 
 4.  Run the following command to get the list of IP addresses of IEDs
     ```
-    sudo docker network inspect -f '{{range .Containers}}{{.Name}} {{.IPv4Address}}{{"\n"}}{{end}}' libiec61850-151-linux_ied_net
+    sudo docker network inspect -f '{{range .Containers}}{{.Name}}{{"\t"}}{{.IPv4Address}}{{"\n"}}{{end}}' libiec61850-151-linux_ied_net
     ```
 
     - Note: if you reboot/restart the linux VM run `sudo ip link add mymacvlan70 link eth0 type macvlan mode bridge ; sudo ip addr add 172.24.16.20/24 dev mymacvlan70 ; sudo ifconfig mymacvlan70 up` to enable access to docker network IPs from your VM
