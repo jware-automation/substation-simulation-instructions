@@ -31,9 +31,7 @@
     ```
     sudo docker network inspect -f '{{range .Containers}}{{.Name}}{{"\t"}}{{.IPv4Address}}{{"\n"}}{{end}}' libiec61850-151-linux_ied_net
     ```
-```json
-   #f03c15
-```
+    
     #### Notes
     - If you wish to change the default IP address or subnet, change the IP in docker compose file at  `./compose.yaml`. Keep the 4th digit of the IP address as shown in the table below:
       
