@@ -34,14 +34,15 @@
 
     ### Notes
     - If you wish to change the default IP address or subnet, change the IP in docker compose file at  `./compose.yaml`. Keep the 4th digit of the IP address as shown in the table below:
-    | IED | IP Last Byte | Example |
-    |-----|---------|---------|
-    | server_ied1   | 11 | 172.24.16.11 |
-    | server_ied4   | 14 | 172.24.16.14 |
-    | server_ied7   | 17 | 172.24.16.17 |
-    | server_ied13   | 23 | 172.24.16.23 |
-    | server_ied16   | 26 | 172.24.16.26 |
-    | server_ied20   | 30 | 172.24.16.30 |
+      
+        | IED | IP Last Byte | Example |
+        |-----|---------|---------|
+        | server_ied1   | 11 | 172.24.16.11 |
+        | server_ied4   | 14 | 172.24.16.14 |
+        | server_ied7   | 17 | 172.24.16.17 |
+        | server_ied13   | 23 | 172.24.16.23 |
+        | server_ied16   | 26 | 172.24.16.26 |
+        | server_ied20   | 30 | 172.24.16.30 |
 
     - If you wish to use a different ethernet interface, you may specify the custom ethernet interface as `ETH_INTERFACE` of each IED in `./compose.yaml`. 
 
