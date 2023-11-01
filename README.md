@@ -37,7 +37,7 @@
       
         | IED | IP Last Byte | Example |
         |-----|---------|---------|
-        | server_ied1   | 11 | 172.24.16. - !11 |
+        | server_ied1   | 11 | 172.24.16.11 |
         | server_ied4   | 14 | 172.24.16.14 |
         | server_ied7   | 17 | 172.24.16.17 |
         | server_ied13   | 23 | 172.24.16.23 |
