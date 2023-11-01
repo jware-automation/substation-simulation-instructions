@@ -46,7 +46,7 @@
 
     - If you wish to use a different ethernet interface, you may specify the custom ethernet interface as `ETH_INTERFACE` of each IED in `./compose.yaml`. 
 
-    - Note: if you reboot/restart the linux VM run `sudo ip link add mymacvlan70 link eth0 type macvlan mode bridge ; sudo ip addr add 172.24.16.20/24 dev mymacvlan70 ; sudo ifconfig mymacvlan70 up` to enable access to docker network IPs from your VM
+    - If you reboot/restart the linux VM run `sudo ip link add mymacvlan70 link eth0 type macvlan mode bridge ; sudo ip addr add 172.24.16.20/24 dev mymacvlan70 ; sudo ifconfig mymacvlan70 up` to enable access to docker network IPs from your VM
 
 ## Configure OSHMI (on Windows Side)
 
