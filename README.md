@@ -33,7 +33,7 @@
     ```
 
     ### Notes
-        - If you wish to change the default IP address or subnet, change the IP in docker compose file at  `./compose.yam`l. Keep the 4th digit of the IP address as shown in the table below:
+        - If you wish to change the default IP address or subnet, change the IP in docker compose file at  `./compose.yaml`. Keep the 4th digit of the IP address as shown in the table below:
         | IED | IP Last Byte | Example |
         |-----|---------|---------|
         | server_ied1   | 11 | 172.24.16.11 |
@@ -43,13 +43,13 @@
         | server_ied16   | 26 | 172.24.16.26 |
         | server_ied20   | 30 | 172.24.16.30 |
     
-        - If you wish to use a different ethernet interface, you may specify the custom ethernet interface as `ETH_INTERFACE` of each IED in `./compose.yam`. 
+        - If you wish to use a different ethernet interface, you may specify the custom ethernet interface as `ETH_INTERFACE` of each IED in `./compose.yaml`. 
     
         - Note: if you reboot/restart the linux VM run `sudo ip link add mymacvlan70 link eth0 type macvlan mode bridge ; sudo ip addr add 172.24.16.20/24 dev mymacvlan70 ; sudo ifconfig mymacvlan70 up` to enable access to docker network IPs from your VM
 
 ## Configure OSHMI (on Windows Side)
 
-1. Download `oshmi_setup_v.6.30.exe` at `https://sourceforge.net/projects/oshmiopensubstationhmi/files/` and install OSHMI.
+1. Download `oshmi_setup_v.6.30.exe` at [https://sourceforge.net/projects/oshmiopensubstationhmi/files/](https://sourceforge.net/projects/oshmiopensubstationhmi/files/) and install OSHMI.
 2. Replace the existing files in the following directories by the files given in the folder **OSHMI-Files for Replacing** provided.
    
     | File | Location    |
