@@ -50,7 +50,7 @@
 
 ## Configure OSHMI (on Windows Side)
 
-1. Download `oshmi_setup_v.6.30.exe` at [https://sourceforge.net/projects/oshmiopensubstationhmi/files/](https://sourceforge.net/projects/oshmiopensubstationhmi/files/){:target="_blank" rel="noopener"} and install OSHMI.
+1. Download `oshmi_setup_v.6.30.exe` at [https://sourceforge.net/projects/oshmiopensubstationhmi/files/](https://sourceforge.net/projects/oshmiopensubstationhmi/files/) and install OSHMI.
 2. Replace the existing files in the following directories by the files given in the folder **OSHMI-Files for Replacing** provided.
    
     | File | Location    |
