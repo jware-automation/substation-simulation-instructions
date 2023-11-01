@@ -32,7 +32,7 @@
     sudo docker network inspect -f '{{range .Containers}}{{.Name}}{{"\t"}}{{.IPv4Address}}{{"\n"}}{{end}}' libiec61850-151-linux_ied_net
     ```
 
-    ### Notes
+    #### Notes
     - If you wish to change the default IP address or subnet, change the IP in docker compose file at  `./compose.yaml`. Keep the 4th digit of the IP address as shown in the table below:
       
         | IED | IP Last Byte | Example |
@@ -50,7 +50,7 @@
 
 ## Configure OSHMI (on Windows Side)
 
-1. Download `oshmi_setup_v.6.30.exe` at [https://sourceforge.net/projects/oshmiopensubstationhmi/files/](https://sourceforge.net/projects/oshmiopensubstationhmi/files/) and install OSHMI.
+1. Download `oshmi_setup_v.6.30.exe` at [https://sourceforge.net/projects/oshmiopensubstationhmi/files/](https://sourceforge.net/projects/oshmiopensubstationhmi/files/){:target="_blank" rel="noopener"} and install OSHMI.
 2. Replace the existing files in the following directories by the files given in the folder **OSHMI-Files for Replacing** provided.
    
     | File | Location    |
