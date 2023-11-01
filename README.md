@@ -37,12 +37,12 @@
       
         | IED | IP Last Byte | Example |
         |-----|---------|---------|
-        | server_ied1   | 11 | 172.24.16.11 |
-        | server_ied4   | 14 | 172.24.16.14 |
-        | server_ied7   | 17 | 172.24.16.17 |
-        | server_ied13   | 23 | 172.24.16.23 |
-        | server_ied16   | 26 | 172.24.16.26 |
-        | server_ied20   | 30 | 172.24.16.30 |
+        | server_ied1   | 11 | 172.24.16.`11` |
+        | server_ied4   | 14 | 172.24.16.`14` |
+        | server_ied7   | 17 | 172.24.16.`17` |
+        | server_ied13   | 23 | 172.24.16.`23` |
+        | server_ied16   | 26 | 172.24.16.`26` |
+        | server_ied20   | 30 | 172.24.16.`30` |
 
     - If you wish to use a different ethernet interface, you may specify the custom ethernet interface as `ETH_INTERFACE` of each IED in `./compose.yaml`. 
 
