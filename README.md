@@ -7,6 +7,20 @@
     ```
     sudo ./make_sim_env.sh
     ```
+4. Run the following command.
+   ```
+   sudo nano /etc/environment
+   ```
+6. Append the following variables with IP addresses of each IED in the `etc/environment` file.
+   ```
+   ETH_INTERFACE=eth0
+   SERVER_IED1="172.24.16.2"
+   SERVER_IED4="172.24.16.3"
+   SERVER_IED7="172.24.16.4"
+   SERVER_IED13="172.24.16.5"
+   SERVER_IED16="172.24.16.6"
+   SERVER_IED20="172.24.16.7"
+   ```
 
 ## Start the Simulation
 1. Run the following commmand to start the IEDs
