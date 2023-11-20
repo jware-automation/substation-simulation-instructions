@@ -31,7 +31,10 @@
     ```
     sudo ./build_control_app.sh
     ```
-3. Run `sudo ./examples/substation_simulation_control_app/substation_simulation_control_app` to start the control app
+3. Run the following command to start the control app
+   ```
+   sudo ./examples/substation_simulation_control_app/substation_simulation_control_app
+   ```
     - You may use an argumant to run the control app in a specific mode and exit automatically
       - Eg: `sudo ./examples/substation_simulation_control_app/substation_simulation_control_app 1` to launch normal mode
 
@@ -41,7 +44,7 @@
     | 2   | Transfomer overheat |
     | 3   | Abnormal Input Voltage |
 
-4.  Run the following command to get the list of IP addresses of IEDs
+5.  Run the following command to get the list of IP addresses of IEDs
     ```
     sudo docker network inspect -f '{{range .Containers}}{{.Name}}{{"\t"}}{{.IPv4Address}}{{"\n"}}{{end}}' libiec61850-151-linux_ied_net
     ```
