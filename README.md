@@ -64,6 +64,7 @@
     | File | Location    |
     |-----|---------|
     | point_list.txt   | `C:\oshmi\conf` |
+    | point_calc.txt   | `C:\oshmi\conf` |
     | iec61850_client.conf | `C:\oshmi\conf` |
     | IEC61850Client   | `C:\Users\<PC-Username>\Desktop\OSHMI` |
     | orr1.svg   | `C:\oshmi\svg` |
