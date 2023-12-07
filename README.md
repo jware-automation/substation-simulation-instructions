@@ -66,6 +66,7 @@
     | point_list.txt   | `C:\oshmi\conf` |
     | point_calc.txt   | `C:\oshmi\conf` |
     | iec61850_client.conf | `C:\oshmi\conf` |
+    | start_hmi.bat | `C:\oshmi\bin` |
     | IEC61850Client   | `C:\Users\<PC-Username>\Desktop\OSHMI` |
     | orr1.svg   | `C:\oshmi\svg` |
     | screen_list.js | `C:\oshmi\svg` |
