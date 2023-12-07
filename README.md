@@ -76,6 +76,5 @@
 
 
 4. Go the the OSHMI folder on your desktop
-5. Start **WebServer**
-6. Start **Screen Viewer**
-7. Finally, Start **IEC61850Client**
+5. Run **_Start_OSHMI** in the OSHMI folder on your desktop.
+6. Finally, Start **IEC61850Client**
